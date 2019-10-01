@@ -1,0 +1,37 @@
+{
+	"authHost": "http://localhost/antrian/public",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "83db23f7b18d5935",
+			"key": "9aa349d715ebdb7733ecbc92515fd106"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": true,
+	"host": null,
+	"port": "6001",
+	"protocol": "http",
+	"socketio": {},
+	"secureOptions": 67108864,
+	"sslCertPath": "",
+	"sslKeyPath": "",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"subscribers": {
+		"http": true,
+		"redis": true
+	},
+	"apiOriginAllow": {
+		"allowCors": true,
+		"allowOrigin": "http://localhost:80",
+		"allowMethods": "get, post, put, patch, delete",
+		"allowHeaders": "origin"
+	}
+}
